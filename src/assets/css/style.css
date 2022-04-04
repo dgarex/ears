@@ -334,8 +334,7 @@ textarea{
 .contact__left__title{
     font-size:  calc(2.2 * 1rem);
     font-family: Active;
-    color:
-            #7bb8bc;
+    color: #beabcc
 }
 .white{
     color:white
@@ -344,8 +343,7 @@ textarea{
     font-family: Poppins;
     font-weight: 300;
     font-style: normal;
-    color:
-            #7bb8bc;
+    color: #beabcc
 }
 .form_flex{
     display: flex;
@@ -649,18 +647,16 @@ form .btn__cart{
 
 }
 
-.form_flex input:nth-child(2){
-    margin-left: 6px;
-}
+
 .mb-3.ml-3{
     margin-left: 10px;
 }
 label{
-    color:
-    #7bb8bc;
+    color: #beabcc;
     font-family:Poppins;
 }
 
+textarea{border-radius: 0.25rem;}
 button[type='submit']{
     background: #dd97b7;
     padding:12px 12px;
@@ -758,6 +754,13 @@ footer a.nav-link:hover{
 .product__card__right .itemCardText div h4,.product__card__right .itemCardText div p {
     color: #beabcc
 
+}
+
+.form_flex label{
+    margin-left: 10px;
+}
+.nav-link:active{
+    color: white;
 }
 div[data-rmiz-modal-content="true"]{
     margin-left: auto!important;
