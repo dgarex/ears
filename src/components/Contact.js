@@ -1,6 +1,6 @@
 import React from 'react';
-
-import {Button, Card, Nav, Container, Navbar, NavDropdown, Row, Form} from "react-bootstrap";
+import insta from '../assets/img/insta.png';
+import {Button, Container, Form} from "react-bootstrap";
 const Contact = () => {
 
     return (
@@ -10,6 +10,7 @@ const Contact = () => {
                     <div className="contact__left">
                         <div className="contact__left__title">Contact us.</div>
                         <div className="contact__left__email">✉️ test@gmail.com</div>
+                        <div className="contact__left__insta"><p><img  alt={'img'} src={insta} /> @insta</p></div>
 </div>
                     <div className="contact__right">
             <Form className={'ContacForm'}>
