@@ -646,8 +646,21 @@ form .btn__cart{
     background: #fafafa;
 
 }
+.contact__left__insta {
+    margin-top: 20px;
+}
+.contact__left__insta p{
+    font-family: Poppins;
+    font-weight: 300;
+    font-style: normal;
+    color: #beabcc;
+}
 
+.contact__left__insta img{
 
+    width: 22px;
+    height:22px;
+}
 .mb-3.ml-3{
     margin-left: 10px;
 }
